@@ -1,0 +1,120 @@
+.image{
+  width: 100%;
+
+  transform: rotate(-20deg);
+  padding-right: 50px;
+}
+.container-fluid{
+  overflow: hidden;
+
+}
+#title{
+  background-color:#ecb3ff;
+
+}
+
+.navbar{
+  padding-bottom: 4.5rem;
+}
+.navbar-brand{
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: Ubuntu;
+}
+.nav-item{
+  padding: 0 18px;
+}
+.nav-link{
+  color: #3333ff;
+  font-family: Ubuntu;
+}
+.button{
+  margin: 3% 3%;
+  text-transform: capitalize;
+}
+h1{
+  font-family:Montserrat;
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: bold;
+  text-transform: capitalize;
+  margin-left: 3%;
+}
+.icon{
+  color:red;
+}
+#features{
+  padding: 5% 15%;
+}
+.feature-box{
+  text-align: center;
+  padding: 5%;
+}
+.icons{
+  color:orange;
+  padding-bottom: 2rem;
+}
+.icons:hover{
+  color:red;
+  cursor: pointer;
+}
+h3{
+  text-transform: capitalize;
+}
+#menu{
+  background: url("bg-desktop.svg");
+  padding: 5% 15%;
+  text-align: center;
+    background-color: pink;
+}
+.heading{
+  font-family:Ubuntu;
+  font-size: 3rem;
+  font-weight: bold;
+  color: black;
+  text-transform: capitalize;
+  padding: 5% 5%;
+}
+.heading:hover{
+  color:#163DEA;
+}
+#special-section{
+  background-color: #F5B041;
+
+}
+.meal-heading{
+  text-align: center;
+  font-family: 'Dancing Script', cursive;
+  font-size: 3rem;
+  text-transform: capitalize;
+  font-weight: bold;
+  line-height: 1.5;
+  padding-top:  2% ;
+}
+hr{
+  border-top: 5px dotted gray;
+  width: 20%;
+}
+.special-section-image{
+  width: 700px;
+  height: 500px;
+}
+#footer{
+  padding: 5% 15%;
+  text-align: center;
+}
+.social-icon{
+  margin: 20px 10px;
+  cursor: pointer;
+}
+@media (max-width:1028px) {
+  #title{
+    text-align: center;
+  }
+  .image{
+    position: static;
+    transform: rotate(0);
+    padding-left: 5%;
+
+  }
+}
