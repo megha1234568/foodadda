@@ -111,6 +111,9 @@ hr{
   #title{
     text-align: center;
   }
+  .special-section-image{
+    align-item:center;
+  }
   .image{
     position: static;
     transform: rotate(0);
