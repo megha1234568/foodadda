@@ -113,6 +113,7 @@ hr{
   }
   .special-section-image{
     padding-left:3%;
+    width:1000px;
   }
   .image{
     position: static;
