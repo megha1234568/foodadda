@@ -107,7 +107,7 @@ hr{
   margin: 20px 10px;
   cursor: pointer;
 }
-@media (max-width:500px) {
+@media (min-width:500px) {
   #title{
     text-align: center;
   }
