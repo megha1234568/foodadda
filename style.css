@@ -112,7 +112,7 @@ hr{
     text-align: center;
   }
   .special-section-image{
-    align-item:center;
+    padding-left:3%;
   }
   .image{
     position: static;
