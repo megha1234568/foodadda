@@ -114,13 +114,13 @@ hr{
   .image{
     position: static;
     transform: rotate(0);
-    padding-left: 12%;
+    padding-left: 10%;
 
   }
   h1{
     font-size: 5rem;
   }
   .special-section-image{
-    width: auto;
+    width:1000px;
   }
 }
