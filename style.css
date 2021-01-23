@@ -123,4 +123,11 @@ hr{
   .special-section-image{
     width:1000px;
   }
+  .nav-link{
+    color: black;
+    font-size: 2rem;
+  }
+  .button{
+    width: 300px;
+  }
 }
