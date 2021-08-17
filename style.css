@@ -1,0 +1,273 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: sans-serif;
+  line-height: 1.5;
+}
+/*navbar section start*/
+.navbar{
+  padding-bottom: 3rem;
+  position: fixed;
+  top: 0;
+  background: #79F79B;
+}
+.navbar-brand{
+  font-size: 5rem;
+  font-weight: bold;
+  font-family: Ubuntu;
+}
+.navbar-brand img{
+  height: 6rem;
+  width: 12rem;
+  padding-top: 1px;
+}
+.nav-item{
+  padding: 0 10px;
+}
+.nav-link{
+  color: #000003;
+  font-size: 1rem;
+  font-family: Ubuntu;
+  
+}
+.nav-link:hover{
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+/* navbar section end*/
+/* header section start*/
+#header{
+  min-height: 100vh;
+  background:url("punjabi thali.JPG") center/cover no-repeat fixed;
+  margin-top: auto;
+}
+.hero{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  background-attachment: fixed;
+  width: 100%;
+  height: 100vh;
+}
+.title{
+  color: #000003;
+  font-size: 50px;
+  text-transform: capitalize;
+}
+.hero-btn{
+  display: inline-block;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 13px 20px;
+  border-radius: 200px;
+  font-weight: bold;
+  color: #041227 ;
+  cursor: pointer;
+  border: 2px solid #BDEE2F;
+  margin-top: 10px;
+  background: #BDEE2F;
+}
+.hero-btn:hover{
+  background: #041227;
+  color: #BDEE2F;
+  border: none;
+  text-decoration: none;
+}
+.logo-image{
+  border-radius: 20px;
+  align-items: center;
+}
+
+/*header section end*/
+/*about us section start*/
+#about{
+  padding: 40px;
+}
+.title-text{
+  font-size: 40px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #02222E ;
+}
+.feature-box{
+  text-align: center;
+  padding: 5%;
+}
+.icons{
+  color:orange;
+  padding-bottom: 1.5rem;
+}
+.icons:hover{
+  color:red;
+  cursor: pointer;
+}
+h3{
+  text-transform: capitalize;
+}
+/*menu section start*/
+
+.menu-image{
+  min-height: 60vh;
+  background: url("food image.jpg")center/cover no-repeat fixed;
+}
+.menu-text{
+  max-height: 50vh;
+  align-items: center;
+  background: #79F79B ;
+clip-path: polygon(0 0, 58% 0, 87% 100%, 0% 100%);
+  padding: 40px 0;
+
+}
+.menu-text-center{
+  max-width: 60%;
+  margin: 0 auto;
+}
+.menu-text h1{
+  font-size: 40px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  margin-top: 3rem;
+  
+}
+.menu-text a{
+  display: inline-block;
+  text-decoration: none;
+  text-transform: capitalize;
+  padding: 15px 20px;
+  border-radius: 200px;
+  font-weight: bold;
+  background:  #090110  ;
+  color: #B9F157 ;
+  cursor: pointer;
+  border: 2px solid #090110  ;
+  margin-top: 3.3rem;
+  margin-left: 2rem;
+  
+}
+.menu-text a:hover{
+  color: #090110;
+  background: #B9F157;
+  border: none;
+  text-decoration: none;
+}
+
+/*menu section end*/
+/*variety start*/
+#food{
+  padding: 20px;
+}
+#food .title-text{
+  font-size: 40px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #02222E ;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+  font-weight: bold;
+}
+.food-container{
+  max-width: 60vw;
+  margin: 0 auto;
+}
+.food-card{
+  position: relative;
+  background: linear-gradient(rgba(205,96,0,0.7)rgba(205,96,0,0.7));
+  margin: 20px;
+  color: black;
+  overflow: hidden;
+  padding: 3px;
+  border-radius: 16px;
+  border: 1px solid orange;
+  box-shadow: 2px 3px 1px 1px orange;
+}
+.food-img{
+  width: 100%;
+  height: 300px;
+  display: block;
+  transition: transform 4s;
+
+}
+@media screen(max-width:500px) {
+.food-img{
+  width:100%;
+  height:100%;
+}  
+}
+.img-text{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50% -50%);
+  text-align: center;
+  opacity: 0;
+  transition: opacity 4s;
+}
+.img-footer{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  padding: 10px;
+  font-size: 20px;
+  opacity: 0;
+  color: black;
+  transition: opacity 4s;
+}
+.img-text h1{
+  font-size: 50px;
+  margin-bottom: 10px;
+  text-transform: capitalize;
+  text-align: center;
+}
+.food-card:hover img{
+  opacity: 0.4;
+  transform: scale(1.3);
+}
+.food-card:hover .img-text,
+.food-card:hover .img-footer{
+  opacity: 1;
+}
+.food-btn{
+  display: inline-block;
+  background: #340310 ;
+  text-decoration: none;
+  text-transform: capitalize;
+  padding: 12px 32px;
+  color: white;
+  font-weight: bold;
+  border-radius: 180px;
+  cursor: pointer;
+  margin-top: 16px;
+  transition: all 0.3s ease-in-out;
+  font-size: 18px;
+  outline: none;
+}
+.food-btn:hover{
+  color:#340310 ;
+  background: white;
+  border: black;
+  outline:none;
+}
+.fass{
+  font-size: 30px;
+  color:#340310;
+}
+
+/*variety end*/
+/*footer start*/
+#footer{
+  padding: 5% 15%;
+  text-align: center;
+}
+.social-icon{
+  margin: 20px 10px;
+  cursor: pointer;
+}
+/*footer end*/

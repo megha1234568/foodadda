@@ -1,0 +1,66 @@
+.image{
+    width: 300px;
+    height: 300px;
+    margin: 3rem;
+    border-radius: 2rem;
+}
+.menu-title{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2.5rem;
+    padding-top: 4rem;
+    color: #120438;
+}
+.menu-section{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 4rem;
+    color: #0e4040;
+    margin-top: 2.5rem;
+}
+
+#indian-starter{
+    text-transform: capitalize;
+    text-align: center;
+    align-items: center;
+}
+.container h6{
+    color: gray;
+}
+.container h3{
+    color: red;
+}
+.container h4{
+    color: #0e4040;
+}
+#main-course{
+    text-transform: capitalize;
+    text-align: center;
+    align-items: center;
+}
+#rice{
+    text-transform: capitalize;
+    text-align: center;
+    align-items: center;
+}
+#desert{
+    text-transform: capitalize;
+    text-align: center;
+    align-items: center;
+}
+#indian-bread{
+    text-transform: capitalize;
+    text-align: center;
+    align-items: center;
+}
+.logo-image{
+    border-radius: 20px;
+    align-items: center;
+}
+.cart{
+    color:darkcyan;
+    padding-right: 1.5rem;
+}
+.cart:hover{
+    color: blueviolet;
+    cursor: pointer;
+
+}
